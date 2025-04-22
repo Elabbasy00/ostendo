@@ -1,8 +1,11 @@
 "use client";
 import React from "react";
 import { motion } from "motion/react";
-import { CheckCircle, ArrowRight } from "lucide-react";
-import { Button } from "../ui/button";
+import {
+  CheckCircle,
+  // , ArrowRight
+} from "lucide-react";
+// import { Button } from "../ui/button";
 import Image from "next/image";
 
 const HomeAbout: React.FC = () => {
