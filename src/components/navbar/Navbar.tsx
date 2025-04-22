@@ -35,11 +35,10 @@ export default function Navbar() {
           <Image
             src="/Logo-white.png"
             alt="Pons"
-            width={90}
-            height={90}
+            width={180}
+            height={120}
             priority
-            style={{ width: "110px", height: "40px" }}
-            className="object-contain"
+            className="object-cover"
           />
           <span className="sr-only">IBC</span>
         </Link>

@@ -376,36 +376,6 @@ const ContactUs: React.FC = () => {
             </div>
           </motion.div>
         </div>
-
-        {/* Industries we serve */}
-        <motion.div
-          className="mt-20 text-center"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          <motion.h3
-            variants={fadeIn}
-            className="text-xl font-bold text-slate-900 mb-6"
-          >
-            Trusted by Leading Organizations Across Industries
-          </motion.h3>
-
-          <motion.div
-            variants={fadeIn}
-            className="flex flex-wrap justify-center gap-8 opacity-70"
-          >
-            {/* Replace with actual client logos */}
-            {Array.from({ length: 5 }).map((_, i) => (
-              <div
-                key={i}
-                className="h-12 w-32 bg-slate-200 rounded flex items-center justify-center"
-              >
-                <span className="text-slate-400 font-medium">LOGO {i + 1}</span>
-              </div>
-            ))}
-          </motion.div>
-        </motion.div>
       </div>
     </section>
   );

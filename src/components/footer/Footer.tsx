@@ -52,10 +52,9 @@ const Footer: React.FC = () => {
                 <Image
                   src="/Logo-dark.png"
                   alt="Pons"
-                  width={90}
+                  width={200}
                   height={90}
                   priority
-                  style={{ width: "110px", height: "40px" }}
                   className="object-contain"
                 />
                 <span className="sr-only">IBC</span>
