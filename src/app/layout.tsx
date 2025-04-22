@@ -97,12 +97,6 @@ export const metadata: Metadata = {
   // Web app manifest
   manifest: "/site.webmanifest",
 
-  // Theme color
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
-  ],
-
   // Additional metadata
   category: "Technology",
   creator: "Ostendo",
