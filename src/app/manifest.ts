@@ -5,7 +5,7 @@ export default async function manifest(): Promise<MetadataRoute.Manifest> {
     name: "Ostendo | System Integration Specialists",
     start_url: "/",
     theme_color: "#101E33",
-    short_name: "Pons",
+    short_name: "ostendo",
     icons: [
       {
         src: "/web-app-manifest-192x192.png",
