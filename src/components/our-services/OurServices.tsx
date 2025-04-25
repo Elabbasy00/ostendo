@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import { FcSelfServiceKiosk } from "react-icons/fc";
 
 interface ServiceProps {
   id: number;
@@ -44,7 +45,7 @@ const services: ServiceProps[] = [
       "User-friendly interfaces for effortless adoption",
     ],
     icon: <Code className="h-6 w-6" />,
-    image: "/software.png",
+    image: "/software.webp",
   },
   {
     id: 3,
@@ -69,6 +70,19 @@ const services: ServiceProps[] = [
     ],
     icon: <Box className="h-6 w-6" />,
     image: "/Kiosks.png",
+  },
+  {
+    id: 5,
+    title: "Digital Walking Billboard",
+    description:
+      "Innovative and portable advertising solution designed to enhance brand visibility and audience engagement.",
+    benefits: [
+      "Lightweight Design: Crafted for comfort, enabling extended wear without compromising mobility.",
+      "Rechargeable Battery: Provides hours of operation, ensuring uninterrupted performance during events.",
+    ],
+    icon: <FcSelfServiceKiosk className="h-6 w-6" />,
+
+    image: "/Walking Digital Billboard/Picture4.png",
   },
 ];
 
@@ -210,7 +224,7 @@ const OurServices: React.FC = () => {
                   activeService === service.id ? "block" : "hidden"
                 }`}
               >
-                <div className="relative h-64 md:h-80">
+                <div className="relative h-80 md:h-120">
                   <Image
                     src={service.image}
                     alt={service.title}

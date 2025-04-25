@@ -3,10 +3,10 @@ import React, { useState } from "react";
 import { motion } from "motion/react";
 import {
   Send,
-  Phone,
-  Mail,
+  // Phone,
+  // Mail,
   MapPin,
-  Clock,
+  // Clock,
   CheckCircle,
   AlertCircle,
 } from "lucide-react";
@@ -140,30 +140,30 @@ const ContactUs: React.FC = () => {
 
               <div className="space-y-5">
                 {[
-                  {
-                    icon: <Phone className="h-5 w-5" />,
-                    title: "Phone",
-                    content: "+201029933691",
-                    action: "tel:+201029933691",
-                  },
-                  {
-                    icon: <Mail className="h-5 w-5" />,
-                    title: "Email",
-                    content: "info@ostendo.com",
-                    action: "mailto:info@ostendo.com",
-                  },
+                  // {
+                  //   icon: <Phone className="h-5 w-5" />,
+                  //   title: "Phone",
+                  //   content: "+201029933691",
+                  //   action: "tel:+201029933691",
+                  // },
+                  // {
+                  //   icon: <Mail className="h-5 w-5" />,
+                  //   title: "Email",
+                  //   content: "info@ostendo.com",
+                  //   action: "mailto:info@ostendo.com",
+                  // },
                   {
                     icon: <MapPin className="h-5 w-5" />,
                     title: "Address",
                     content: "Maddi Cairo, Egypt",
                     action: "https://maps.google.com",
                   },
-                  {
-                    icon: <Clock className="h-5 w-5" />,
-                    title: "Business Hours",
-                    content: "Monday - Friday: 9:00 AM - 6:00 PM",
-                    action: null,
-                  },
+                  // {
+                  //   icon: <Clock className="h-5 w-5" />,
+                  //   title: "Business Hours",
+                  //   content: "Monday - Friday: 9:00 AM - 6:00 PM",
+                  //   action: null,
+                  // },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <div className="p-3 bg-destructive/10 text-destructive rounded-lg">

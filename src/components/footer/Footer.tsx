@@ -2,8 +2,8 @@
 import React from "react";
 // import { motion } from "motion/react";
 import {
-  Mail,
-  Phone,
+  // Mail,
+  // Phone,
   MapPin,
   Facebook,
   Twitter,
@@ -147,16 +147,16 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-4">
               {[
-                {
-                  icon: <Phone className="h-5 w-5" />,
-                  content: "+201029933691",
-                  href: "tel:+201029933691",
-                },
-                {
-                  icon: <Mail className="h-5 w-5" />,
-                  content: "info@ostendo.com",
-                  href: "mailto:info@ostendo.com",
-                },
+                // {
+                //   icon: <Phone className="h-5 w-5" />,
+                //   content: "+201029933691",
+                //   href: "tel:+201029933691",
+                // },
+                // {
+                //   icon: <Mail className="h-5 w-5" />,
+                //   content: "info@ostendo.com",
+                //   href: "mailto:info@ostendo.com",
+                // },
                 {
                   icon: <MapPin className="h-5 w-5" />,
                   content: "Maddi Cairo, Egypt",

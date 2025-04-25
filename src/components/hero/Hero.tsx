@@ -62,9 +62,11 @@ const Hero: React.FC = () => {
               variants={fadeIn}
               className="text-lg text-slate-600 max-w-lg"
             >
-              Ostendo delivers cutting-edge interactive solutions, advanced
-              software, and professional display systems that empower businesses
-              to redefine functionality and engagement.
+              Ostendo delivers{" "}
+              <span className="text-destructive">tailor-made</span> cutting-edge
+              interactive solutions, advanced software, and professional display
+              systems that empower businesses to redefine functionality and
+              engagement
             </motion.p>
 
             <motion.div variants={fadeIn} className="flex flex-wrap gap-4 pt-4">
@@ -95,7 +97,7 @@ const Hero: React.FC = () => {
               {[
                 {
                   icon: <Monitor className="h-5 w-5" />,
-                  label: "Interactive Solutions",
+                  label: "Tailor-made Interactive Solutions",
                 },
                 {
                   icon: <Code className="h-5 w-5" />,
@@ -133,7 +135,7 @@ const Hero: React.FC = () => {
             >
               <div className="aspect-[4/3] relative">
                 <Image
-                  src="/Hero-image.png"
+                  src="/home.png"
                   alt="Ostendo Integration Solutions"
                   fill
                   className="object-cover"
@@ -171,7 +173,7 @@ const Hero: React.FC = () => {
                   <div className="text-xs text-slate-500">Years</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-xl font-bold text-destructive">200+</div>
+                  <div className="text-xl font-bold text-destructive">20+</div>
                   <div className="text-xs text-slate-500">Projects</div>
                 </div>
               </div>

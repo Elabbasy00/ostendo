@@ -26,12 +26,12 @@ const clientLogos = [
   // { name: "Misr Cement group", logo: "/Clients/client20.png" },
   { name: "misr pharmacies", logo: "/Clients/client21.png" },
   { name: "Newcity", logo: "/Clients/client22.png" },
-  // { name: "palm hills", logo: "/Clients/client23.png" },
+  // { name: "palm hills", logo: "/Clients/client23.svg" },
   // { name: "Egyptpost", logo: "/Clients/client24.png" },
   // { name: "Riadco", logo: "/Clients/client25.png" },
   { name: "صيديلية رشدي", logo: "/Clients/client26.jpg" },
   // { name: "Saudi Embassy", logo: "/Clients/client27.png" },
-  { name: "Sodic", logo: "/Clients/client28.png" },
+  { name: "Sodic", logo: "/Clients/client28.svg" },
   // {
   //   name: "international relations and cooperation",
   //   logo: "/Clients/client29.png",
@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
         >
           <div className="text-center mb-10">
             <h3 className="text-2xl font-bold text-black">
-              Our Valued Clients
+              A selection of our clients
             </h3>
             <motion.h3
               variants={fadeIn}
@@ -94,8 +94,8 @@ const TestimonialsSection = () => {
                   src={client.logo}
                   alt={`${client.name} logo`}
                   width={120}
-                  height={40}
-                  className="max-h-10 w-auto opacity-80 hover:opacity-100 transition-opacity"
+                  height={120}
+                  className="max-h-15 w-full object-contain  opacity-80 hover:opacity-100 transition-opacity"
                 />
               </motion.div>
             ))}
