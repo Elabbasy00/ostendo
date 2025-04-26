@@ -23,7 +23,7 @@ export const transporter = nodemailer.createTransport({
 
 export const mailOptions = {
   from: email,
-  to: "osama@alliesinv.com",
+  to: "contact@alliesinv.com",
   //
 };
 
